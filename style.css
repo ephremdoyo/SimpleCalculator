@@ -1,0 +1,84 @@
+body {
+  background-color: #23282e;
+  font-family: "Ubuntu", serif;
+  font-weight: 500;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+}
+.title {
+  color: #ff7709;
+  text-align: center;
+  margin: 20px 10px;
+  padding: 10px;
+}
+.container {
+  margin: 0 auto;
+  width: 300px;
+  padding: 20px;
+  background-color: #23282e;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.display_container {
+  overflow: hidden;
+  font-size: 30px;
+  color: white;
+  text-align: right;
+  margin: 0 auto;
+  width: 250px;
+  height: 80px;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #242b33;
+  border-radius: 15px;
+ 
+}
+#display {
+  font-size: 25px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  padding-bottom: 10px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  margin: 20px 0;
+}
+.button_container button {
+  font-size: 20px;
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 25px;
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  color: white;
+}
+
+.button_container button:hover {
+  box-shadow: 0px 0px 15px rgba(255, 255, 000, 0.7);
+}
+
+.top_buttons button,
+.buttons > .operation {
+  color: #74c852;
+}
+#equal {
+    background-color: #FA7C14;
+   
+}
+
+@media only screen and (max-width: 600px)  {
+  .title{
+    margin: 5px 0;
+    padding: 5px;
+  }
+ 
+}

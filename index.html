@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Link google font awesome  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+<link rel="manifest" href="manifest.json">
+
+    <!-- link css file  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Calculator</title>
+  </head>
+  <body>
+    <section>
+      <div>
+        <h1 class="title">CALCULATOR</h1>
+      </div>
+      <div class="container">
+        <!-- title and display  -->
+        <div class="display_container">
+          <button id="display">0</button>
+          <div class="display_answer" id="result"></div>
+        </div>
+
+        <!-- buttons  -->
+        <div class="button_container">
+          <div class="top_buttons buttons">
+            <button id="ac">AC</button>
+            <button id="delete">Del</button>
+            <button id="module" class="operation">%</button>
+            <button class="operation">/</button>
+          </div>
+
+          <div class="second_buttons buttons">
+            <button class="number">7</button>
+            <button class="number">8</button>
+            <button class="number">9</button>
+            <button class="operation">*</button>
+          </div>
+
+          <div class="third_buttons buttons">
+            <button class="number">4</button>
+            <button class="number">5</button>
+            <button class="number">6</button>
+            <button class="operation">-</button>
+          </div>
+
+          <div class="fourth_buttons buttons">
+            <button class="number">1</button>
+            <button class="number">2</button>
+            <button class="number">3</button>
+            <button class="operation">+</button>
+          </div>
+
+          <div class="bottom_buttons buttons">
+            <button class="number">00</button>
+            <button class="number">0</button>
+            <button class="operation">.</button>
+            <button id="equal">=</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
